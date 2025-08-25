@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes,Route } from "react-router-dom";
-import Navbar from "./redux/components/Navbar";
-import Home from "./redux/pages/Home";
-import Cart from "./redux/pages/Cart";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import Cart from "./pages/Cart";
 
 const Shoppingcard=()=>{
     return(
@@ -18,6 +18,3 @@ const Shoppingcard=()=>{
     );
 }
 export default Shoppingcard; 
-
-
-//const API_URL = "https://fakestoreapi.com/products"; 
