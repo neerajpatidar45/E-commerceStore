@@ -2,7 +2,7 @@ import React from "react";
 import { FcDeleteDatabase } from "react-icons/fc";
 import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
-import { remove } from "../slices/Cartslice";
+import { remove } from "../Cartslice";
 
 const Cartitem=({item,itemindex})=>{
 
@@ -33,4 +33,5 @@ const Cartitem=({item,itemindex})=>{
         </div>
     );
 }
+
 export default Cartitem; 
