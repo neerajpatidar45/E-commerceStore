@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toast } from "react-toastify";
-import { add, remove } from "../slices/Cartslice";
+import { add, remove } from "../Cartslice";
 
 const Products = ({ item }) => {
     const { cart } = useSelector((state) => state);
@@ -51,4 +51,5 @@ const Products = ({ item }) => {
         </div>
     );
 }
+
 export default Products; 
